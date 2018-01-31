@@ -337,12 +337,6 @@ footer {
 
 .background-alt {
     background: $background-alt;
-
-    p, ul {
-        margin: 0;
-        color: $text;
-        font-size: 0.9em;
-    }
 }
 
 /*
@@ -509,6 +503,14 @@ footer {
         top: 100%;
         left: 303px;
     }
+}
+
+.experience-list {
+  p, ul {
+      margin: 0;
+      color: $text;
+      font-size: 0.9em;
+  }
 }
 
 .vtimeline-content {
