@@ -475,6 +475,8 @@ footer {
     }
 }
 
+
+
 #experience-timeline {
     margin: 30px auto 0 auto;
     position: relative;
@@ -505,14 +507,6 @@ footer {
     }
 }
 
-.experience-list {
-  p, ul {
-      margin: 0;
-      color: $text;
-      font-size: 0.9em;
-  }
-}
-
 .vtimeline-content {
     margin-left: 350px;
     background: #fff;
@@ -536,7 +530,7 @@ footer {
         margin: 0 0 15px 0;
     }
 
-    p {
+    p, ul, li {
         color: $text;
         font-size: 0.9em;
         margin: 0;
