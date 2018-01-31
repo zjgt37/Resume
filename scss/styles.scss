@@ -337,6 +337,12 @@ footer {
 
 .background-alt {
     background: $background-alt;
+
+    p, ul {
+        margin: 0;
+        color: $text;
+        font-size: 0.9em;
+    }
 }
 
 /*
@@ -528,7 +534,7 @@ footer {
         margin: 0 0 15px 0;
     }
 
-    p, ul {
+    p {
         color: $text;
         font-size: 0.9em;
         margin: 0;
