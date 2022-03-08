@@ -191,7 +191,7 @@ $text: #74808a;
     ---------------------
 */
 
-@mixin transition($duration: 0.1s, $func: ease, $property: all) {
+@mixin transition($duration: 0.5s, $func: ease, $property: all) {
     transition: #{$duration} #{$func} #{$property};
 }
 
@@ -287,7 +287,7 @@ header {
     animation-name: dropHeader;
     animation-iteration-count: 1;
     animation-timing-function: ease;
-    animation-duration: 0.1s;
+    animation-duration: 0.75s;
 
     ul {
         display: inline-block;
@@ -556,7 +556,7 @@ footer {
     }
 
     i {
-        animation: pulsate .1s ease;
+        animation: pulsate 1.5s ease;
         animation-iteration-count: infinite;
         padding-top: 5px;;
     }
