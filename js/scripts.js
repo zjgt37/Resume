@@ -14,8 +14,13 @@
         var scrollDistance = $(heading).offset().top;
 
         $('html, body').animate({
-            scrollTop: scrollDistance + 'px', 100
-        }, Math.abs(window.pageYOffset - $(heading).offset().top) / 1);
+            scrollTop: scrollDistance + 'px'
+        }, {
+            duration: 5000,
+            specialEasing: {
+                width: "linear",
+                height: "easeOutBounce"
+            }, Math.abs(window.pageYOffset - $(heading).offset().top) / 1);
 
         // Hide the menu once clicked if mobile
         if ($('header').hasClass('active')) {
@@ -27,7 +32,12 @@
     $('#to-top').click(function() {
         $('html, body').animate({
             scrollTop: 0
-        }, 500);
+        }, {
+            duration: 5000,
+            specialEasing: {
+                width: "linear",
+                height: "easeOutBounce"
+            }, 500);
     });
 
     // Scroll to first element
@@ -35,7 +45,12 @@
         var scrollDistance = $('#lead').next().offset().top;
         $('html, body').animate({
             scrollTop: scrollDistance + 'px'
-        }, 500);
+        }, {
+            duration: 5000,
+            specialEasing: {
+                width: "linear",
+                height: "easeOutBounce"
+            }, 500);
     });
 
     // Create timeline
