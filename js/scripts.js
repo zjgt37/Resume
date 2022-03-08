@@ -16,7 +16,7 @@
         $('html, body').animate({
             scrollTop: scrollDistance + 'px'
         }, {
-            duration: 5000,
+            duration: 100,
             specialEasing: {
                 width: "linear",
                 height: "easeOutBounce"
@@ -33,7 +33,7 @@
         $('html, body').animate({
             scrollTop: 0
         }, {
-            duration: 5000,
+            duration: 100,
             specialEasing: {
                 width: "linear",
                 height: "easeOutBounce"
@@ -46,7 +46,7 @@
         $('html, body').animate({
             scrollTop: scrollDistance + 'px'
         }, {
-            duration: 5000,
+            duration: 100,
             specialEasing: {
                 width: "linear",
                 height: "easeOutBounce"
