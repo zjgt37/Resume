@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\css",
+    "\\js",
+    "\\libs",
+    "\\libs\\font-awesome",
+    "\\scss"
   ],
+  "SelectedNode": "\\.DS_Store",
   "PreviewInSolutionExplorer": false
 }
